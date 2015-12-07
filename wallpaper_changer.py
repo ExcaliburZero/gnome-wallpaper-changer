@@ -43,21 +43,21 @@ def main():
 	# 22 -	5	Late Night		#
 	#########################################
 	wallpaper_image = "~/Pictures/Wallpapers/"
-	if current_hour <= 5:
+	if current_hour < 5:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Late-Night.png"
-	elif current_hour <= 7:
+	elif current_hour < 7:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Early-Morning.png"
-	elif current_hour <= 10:
+	elif current_hour < 10:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Late-Morning.png"
-	elif current_hour <= 14:
+	elif current_hour < 14:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Mid-Day.png"
-	elif current_hour <= 17:
+	elif current_hour < 17:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Afternoon.png"
-	elif current_hour <= 20:
+	elif current_hour < 20:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Late-Evening.png"
-	elif current_hour <= 22:
+	elif current_hour < 22:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Night.png"
-	elif current_hour <= 24:
+	elif current_hour < 24:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Late-Night.png"
 
 	# Set the wallpaper
