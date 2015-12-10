@@ -34,9 +34,9 @@ def main():
 	#########################################
 	# Set the Wallpaper based on the time	#
 	#########################################
-	# 5  -	7	Early Morning		#
-	# 7  -	10	Late Morning		#
-	# 10 -	14	Mid Day			#
+	# 5  -	9	Early Morning		#
+	# 9  -	11	Late Morning		#
+	# 11 -	14	Mid Day			#
 	# 14 -	17	Afternoon		#
 	# 17 -	20	Late Evening		#
 	# 20 -	22	Night			#
@@ -45,9 +45,9 @@ def main():
 	wallpaper_image = "~/Pictures/Wallpapers/"
 	if current_hour < 5:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Late-Night.png"
-	elif current_hour < 7:
+	elif current_hour < 9:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Early-Morning.png"
-	elif current_hour < 10:
+	elif current_hour < 11:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Late-Morning.png"
 	elif current_hour < 14:
 		wallpaper_image = wallpaper_image + "8Bit-Day-Mid-Day.png"
